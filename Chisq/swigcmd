@@ -1,0 +1,6 @@
+#!/bin/bash
+
+filename='Chisq'
+swig -c++ -ruby ${filename}.i
+awk '{print} /#include <ruby\.h>/{print "#undef rb_intern\n"}' ${filename}_wrap.cxx > ${filename}_wrap.tmp
+mv ${filename}_wrap.tmp ${filename}_wrap.cxx

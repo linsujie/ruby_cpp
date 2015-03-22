@@ -1,5 +1,5 @@
-require 'mkmf-rice'
+require 'mkmf'
 
-$local_libs = '-lgsl '
+$libs = '-lgsl -lalg '
 
 create_makefile('Chisq')
