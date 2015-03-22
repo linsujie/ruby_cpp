@@ -1,5 +1,5 @@
 #!/usr/local/bin/ruby
-require '~/rice//LibLin/LibLin'
+require '~/ruby_cpp/LibLin/LibLin'
 
 def func(x, y)
   x**2 + y**2
