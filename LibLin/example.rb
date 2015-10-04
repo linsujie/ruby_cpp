@@ -21,10 +21,11 @@ a.each { |x| vx << x }
 b.each { |y| vy << y }
 b.each { |y| addline(table, y, vx) }
 
-p table
-tab = LibLin::Table2D.new(vx, vy, table)
-intp = LibLin::Interp2D.new(tab)
-
-tab.list()
-m, n = 1.7, 1.65
-p intp.linask(m, n), m**2 + n**2
+p vx
+#p table
+#tab = LibLin::Table2D.new(vx, vy, table)
+#intp = LibLin::Interp2D.new(tab)
+#
+#tab.list()
+#m, n = 1.7, 1.65
+#p intp.linask(m, n), m**2 + n**2

@@ -1,3 +1,5 @@
+#!/usr/bin/ruby
+
 require 'mkmf'
 
 $libs = '-lgsl -lalg '

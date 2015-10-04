@@ -5,6 +5,10 @@
 #include "interp.h"
 #include "Table2D.h"
 #include "Interp2D.h"
+#include "solar_mod.h"
+#include "ffd_solar_mod.h"
+#include "spectrum.h"
+#include "chisq.h"
 %}
 namespace std {
   %template(Vectorf) vector<float>;
@@ -16,3 +20,7 @@ namespace std {
 %include "interp.h"
 %include "Table2D.h"
 %include "Interp2D.h"
+%include "solar_mod.h"
+%include "ffd_solar_mod.h"
+%include "spectrum.h"
+%include "chisq.h"
