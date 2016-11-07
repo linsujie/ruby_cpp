@@ -1,5 +1,5 @@
 require 'mkmf'
 
-$libs = '-lstdc++ -llins '
+$libs = '-lstdc++ -L/home/linsj/mybasic/lib -llins '
 
 create_makefile('LibLin')

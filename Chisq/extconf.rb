@@ -2,6 +2,6 @@
 
 require 'mkmf'
 
-$libs = '-lgsl -lalg '
+$libs = '-lgsl -L/home/linsj/mybasic/lib -lalg '
 
 create_makefile('Chisq')
