@@ -5,5 +5,5 @@
 
 double alpha(double x, int nu);
 double chi2(double alpha, int nu);
-double percent(double nsig);
-double getnsig(double perc);
+double percent(const double nsig);
+double getnsig(const double perc);
